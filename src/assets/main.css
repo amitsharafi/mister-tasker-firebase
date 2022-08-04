@@ -1,4 +1,4 @@
-@import "./base.css";
+@import './base.css';
 
 #app {
   max-width: 1280px;
@@ -32,4 +32,19 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+}
+
+.task-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.task-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightpink;
+  padding: 2rem;
+  height: 200px;
+  width: 200px;
 }
